@@ -21,17 +21,6 @@ conda activate virusml
 ```
 ---
 
-Usage
-Give simple example commands:
-```markdown
-## Usage
-
-### Preprocess raw FASTQ files
-```bash
-python scripts/preprocess_fastq.py --input data/SRRXXXXXX.fastq.gz --output results/sample_expression.csv
-
-python scripts/train_rf.py --features results/sample_expression.csv --labels data/metadata.csv
-
 This repo does **not** host full RNA-seq data due to size limits.  
 Raw data can be downloaded from SRA (PRJNA1074963) and GEO (GSE49840).  
 Metadata tables are provided in `data/` to link accession numbers with conditions.
