@@ -17,8 +17,8 @@ Clone this repository and create the environment:
 git clone https://github.com/blatuscaspot/iav-rna.git
 cd virus-transcriptome-ML
 conda env create -f environment.yml
-conda activate virusml```
-
+conda activate virusml
+```
 ---
 
 Usage
