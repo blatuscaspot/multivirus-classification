@@ -11,7 +11,6 @@ We implement workflows to:
 - Evaluate robustness with shuffled, permuted, depleted, and enriched datasets.
 
 ## Repository Structure
-**Legend**
 - **notebooks/** – interactive exploration, data checks, prototyping.  
 - **scripts/** – reproducible workflows (data preprocessing, model training, figure generation).  
 - **data/** – input/output data; large raw files should be excluded via `.gitignore`.  
