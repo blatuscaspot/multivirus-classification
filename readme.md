@@ -39,6 +39,27 @@ This repo does **not** host full RNA-seq data due to size limits.
 Raw data can be downloaded from SRA (PRJNA1074963) and GEO (GSE49840).  
 Metadata tables are provided in `data/` and the files used in the enrichment/depletion assemblies are in `assemblies/`.
 
+## Installation & dependencies
+
+This project is written in **Python 3.10** and was developed/tested on a **Compute Canada cluster**  
+(slurm-based scheduler, multi-core CPUs, high-memory nodes). The code should also run on a Linux/Mac workstation, though some steps (e.g., large k-mer counts) require more memory and parallelism.
+
+You will need these packages:
+`numpy`
+`pandas`
+`scikit-learn`
+`scipy`
+`matplotlib`
+`seaborn`
+`plotly`
+`statsmodels`
+`biopython`
+`pysam`
+`tqdm`
+`pyjanitor`
+`jupyterlab`
+
+## Usage
 If you use this code, please cite:
 Benjamin Kaza et al. (2025). Machine Learning Enables Genome-Agnostic Classification of RNA Virus Infections from Host Transcriptomes.
 
