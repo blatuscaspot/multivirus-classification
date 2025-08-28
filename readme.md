@@ -10,16 +10,16 @@ We implement workflows to:
 - Run unsupervised clustering and Random Forest classifiers.
 - Evaluate robustness with shuffled, permuted, depleted, and enriched datasets.
 
-## Installation
-Clone this repository and create the environment:
-
-```bash
-git clone https://github.com/blatuscaspot/iav-rna.git
-cd virus-transcriptome-ML
-conda env create -f environment.yml
-conda activate virusml
-```
----
+## Repository Structure
+**Legend**
+- **notebooks/** – interactive exploration, data checks, prototyping.  
+- **scripts/** – reproducible workflows (data preprocessing, model training, figure generation).  
+- **data/** – input/output data; large raw files should be excluded via `.gitignore`.  
+- **results/** – auto-generated results; not manually edited.  
+- **fig/** – curated figures for the manuscript.  
+- **env/** – reproducible environment definitions.  
+- **LICENSE** – open-source license.  
+- **README.md** – documentation for installation, usage, and repo overview.  
 
 This repo does **not** host full RNA-seq data due to size limits.  
 Raw data can be downloaded from SRA (PRJNA1074963) and GEO (GSE49840).  
